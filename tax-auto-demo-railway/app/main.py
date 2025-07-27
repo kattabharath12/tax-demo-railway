@@ -32,7 +32,7 @@ app.add_middleware(
 )
 
 # Static files
-app.mount("/static", StaticFiles(directory="../static"), name="static")
+#app.mount("/static", StaticFiles(directory="../static"), name="static")
 
 # Health check endpoint for Railway
 @app.get("/health")
